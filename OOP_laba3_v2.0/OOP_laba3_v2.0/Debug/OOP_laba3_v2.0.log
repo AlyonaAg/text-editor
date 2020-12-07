@@ -1,0 +1,31 @@
+﻿  Conroller.cpp
+C:\Users\Asus\OneDrive - Peter the Great St. Petersburg Polytechnical University\5 семестр\ООП\3 лаба\OOP_laba3_v2.0\OOP_laba3_v2.0\curses.h(160,1): warning C4005: MOUSE_MOVED: изменение макроопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\wincontypes.h(103): message : см. предыдущее определение "MOUSE_MOVED"
+C:\Users\Asus\OneDrive - Peter the Great St. Petersburg Polytechnical University\5 семестр\ООП\3 лаба\OOP_laba3_v2.0\OOP_laba3_v2.0\Text_editor.h(11,1): warning C4005: KEY_BACKSPACE: изменение макроопределения
+C:\Users\Asus\OneDrive - Peter the Great St. Petersburg Polytechnical University\5 семестр\ООП\3 лаба\OOP_laba3_v2.0\OOP_laba3_v2.0\curses.h(630): message : см. предыдущее определение "KEY_BACKSPACE"
+C:\Users\Asus\OneDrive - Peter the Great St. Petersburg Polytechnical University\5 семестр\ООП\3 лаба\OOP_laba3_v2.0\OOP_laba3_v2.0\Text_editor.h(12,1): warning C4005: KEY_ENTER: изменение макроопределения
+C:\Users\Asus\OneDrive - Peter the Great St. Petersburg Polytechnical University\5 семестр\ООП\3 лаба\OOP_laba3_v2.0\OOP_laba3_v2.0\curses.h(648): message : см. предыдущее определение "KEY_ENTER"
+  Model.cpp
+C:\Users\Asus\OneDrive - Peter the Great St. Petersburg Polytechnical University\5 семестр\ООП\3 лаба\OOP_laba3_v2.0\OOP_laba3_v2.0\curses.h(160,1): warning C4005: MOUSE_MOVED: изменение макроопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\wincontypes.h(103): message : см. предыдущее определение "MOUSE_MOVED"
+C:\Users\Asus\OneDrive - Peter the Great St. Petersburg Polytechnical University\5 семестр\ООП\3 лаба\OOP_laba3_v2.0\OOP_laba3_v2.0\Text_editor.h(11,1): warning C4005: KEY_BACKSPACE: изменение макроопределения
+C:\Users\Asus\OneDrive - Peter the Great St. Petersburg Polytechnical University\5 семестр\ООП\3 лаба\OOP_laba3_v2.0\OOP_laba3_v2.0\curses.h(630): message : см. предыдущее определение "KEY_BACKSPACE"
+C:\Users\Asus\OneDrive - Peter the Great St. Petersburg Polytechnical University\5 семестр\ООП\3 лаба\OOP_laba3_v2.0\OOP_laba3_v2.0\Text_editor.h(12,1): warning C4005: KEY_ENTER: изменение макроопределения
+C:\Users\Asus\OneDrive - Peter the Great St. Petersburg Polytechnical University\5 семестр\ООП\3 лаба\OOP_laba3_v2.0\OOP_laba3_v2.0\curses.h(648): message : см. предыдущее определение "KEY_ENTER"
+  Text_editor.cpp
+C:\Users\Asus\OneDrive - Peter the Great St. Petersburg Polytechnical University\5 семестр\ООП\3 лаба\OOP_laba3_v2.0\OOP_laba3_v2.0\curses.h(160,1): warning C4005: MOUSE_MOVED: изменение макроопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\wincontypes.h(103): message : см. предыдущее определение "MOUSE_MOVED"
+C:\Users\Asus\OneDrive - Peter the Great St. Petersburg Polytechnical University\5 семестр\ООП\3 лаба\OOP_laba3_v2.0\OOP_laba3_v2.0\Text_editor.h(11,1): warning C4005: KEY_BACKSPACE: изменение макроопределения
+C:\Users\Asus\OneDrive - Peter the Great St. Petersburg Polytechnical University\5 семестр\ООП\3 лаба\OOP_laba3_v2.0\OOP_laba3_v2.0\curses.h(630): message : см. предыдущее определение "KEY_BACKSPACE"
+C:\Users\Asus\OneDrive - Peter the Great St. Petersburg Polytechnical University\5 семестр\ООП\3 лаба\OOP_laba3_v2.0\OOP_laba3_v2.0\Text_editor.h(12,1): warning C4005: KEY_ENTER: изменение макроопределения
+C:\Users\Asus\OneDrive - Peter the Great St. Petersburg Polytechnical University\5 семестр\ООП\3 лаба\OOP_laba3_v2.0\OOP_laba3_v2.0\curses.h(648): message : см. предыдущее определение "KEY_ENTER"
+  View.cpp
+C:\Users\Asus\OneDrive - Peter the Great St. Petersburg Polytechnical University\5 семестр\ООП\3 лаба\OOP_laba3_v2.0\OOP_laba3_v2.0\curses.h(160,1): warning C4005: MOUSE_MOVED: изменение макроопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\wincontypes.h(103): message : см. предыдущее определение "MOUSE_MOVED"
+C:\Users\Asus\OneDrive - Peter the Great St. Petersburg Polytechnical University\5 семестр\ООП\3 лаба\OOP_laba3_v2.0\OOP_laba3_v2.0\Text_editor.h(11,1): warning C4005: KEY_BACKSPACE: изменение макроопределения
+C:\Users\Asus\OneDrive - Peter the Great St. Petersburg Polytechnical University\5 семестр\ООП\3 лаба\OOP_laba3_v2.0\OOP_laba3_v2.0\curses.h(630): message : см. предыдущее определение "KEY_BACKSPACE"
+C:\Users\Asus\OneDrive - Peter the Great St. Petersburg Polytechnical University\5 семестр\ООП\3 лаба\OOP_laba3_v2.0\OOP_laba3_v2.0\Text_editor.h(12,1): warning C4005: KEY_ENTER: изменение макроопределения
+C:\Users\Asus\OneDrive - Peter the Great St. Petersburg Polytechnical University\5 семестр\ООП\3 лаба\OOP_laba3_v2.0\OOP_laba3_v2.0\curses.h(648): message : см. предыдущее определение "KEY_ENTER"
+C:\Users\Asus\OneDrive - Peter the Great St. Petersburg Polytechnical University\5 семестр\ООП\3 лаба\OOP_laba3_v2.0\OOP_laba3_v2.0\View.cpp(77,18): warning C4018: <=: несоответствие типов со знаком и без знака
+  Создание кода...
+  OOP_laba3_v2.0.vcxproj -> C:\Users\Asus\OneDrive - Peter the Great St. Petersburg Polytechnical University\5 семестр\ООП\3 лаба\OOP_laba3_v2.0\Debug\OOP_laba3_v2.0.exe

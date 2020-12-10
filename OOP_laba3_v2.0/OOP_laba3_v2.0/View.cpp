@@ -1,7 +1,7 @@
 #include "Text_editor.h"
 
 
-EditorView::EditorView(EditorModel* model, EditorController* controller, Adapter* adapter)
+EditorView::EditorView(EditorModel* model, EditorController* controller, Target* adapter)
 {
 	_controller = controller;
 	_adapter = adapter;
@@ -373,21 +373,40 @@ void EditorView::NaviKeyUp(const MyString& string, size_t* offset)
 
 void EditorView::NaviKeyPgDn(const MyString& string, size_t* offset)
 {
-	if (!string.empty() && (_index_end_page + 1) < string.size())
+	if (string.empty() || (_index_end_page + 1) >= string.size())	return;
+	size_t temp_end = _index_end_page;
+	_index_in_row = 0;
+
+	while (FindEndIndexRow(string, *offset) < string.size()
+		&& *offset < temp_end)
+		NaviKeyDown(string, offset);
+	if (string[temp_end] != '\n')
 	{
-		_index_start_page = _index_end_page + 1;
-		_index_in_row = 0;
-		_x = 0, _y = 0;
-		*offset = _index_start_page;
+		NaviKeyUp(string, offset);
+		while (*offset <= temp_end && *offset < string.size())
+			NaviKeyRight(string, offset);
 	}
+	_index_start_page = *offset;
+	_y = 0, _x = 0;
 }
 
 void EditorView::NaviKeyPgUp(const MyString& string, size_t* offset)
 {
-	if (string.empty() || *offset <= 0) return;
+	if (string.empty() || _index_start_page <= 0) return;
 	_index_in_row = 0;
-	_x = 0, _y = 0;
-	*offset = _index_start_page;
+	size_t temp_start = _index_start_page;
+	while (FindStartIndexRow(string, *offset) > 0
+		&& *offset > temp_start)
+		NaviKeyUp(string, offset);
+	if (string[temp_start] != '\n')
+	{
+		NaviKeyDown(string, offset);
+		while (*offset <= temp_start && *offset < string.size())
+			NaviKeyRight(string, offset);
+	}
+	_index_start_page = *offset;
+	_y = 0, _x = 0;
+
 	int y = 0, i = 0;
 	size_t temp_offset;
 	while (y < cTextScreenHeight && *offset >0)

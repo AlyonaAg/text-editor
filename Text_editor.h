@@ -6,7 +6,7 @@
 #include <string>
 #include <vector>
 #include "curses.h"
-#include "C:\Users\Asus\source\repos\MyString\MyString\my_class.h"
+#include "my_class.h"
 
 #define KEY_BACKSPACE 8
 #define KEY_ENTER 13
@@ -157,7 +157,7 @@ private:
 class EditorView : public Observer
 {
 public:
-	EditorView(EditorModel* model, EditorController* controller, Adapter* adapter);
+	EditorView(EditorModel* model, EditorController* controller, Target* adapter);
 	~EditorView() { endwin(); };
 
 	void EventWaiting();
@@ -215,7 +215,7 @@ private:
 	WINDOW* _win_for_file;
 
 	EditorController* _controller;
-	Adapter* _adapter;
+	Target* _adapter;
 
 	int _y, _x;
 	int _y_command, _x_command;

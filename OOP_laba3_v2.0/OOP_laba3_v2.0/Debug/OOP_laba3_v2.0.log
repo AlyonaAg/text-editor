@@ -1,1 +1,18 @@
-﻿  OOP_laba3_v2.0.vcxproj -> C:\Users\Asus\OneDrive - Peter the Great St. Petersburg Polytechnical University\5 семестр\ООП\3 лаба\OOP_laba3_v2.0\Debug\OOP_laba3_v2.0.exe
+﻿  View.cpp
+c:\users\asus\onedrive - peter the great st. petersburg polytechnical university\5 семестр\ооп\3 лаба\oop_laba3_v2.0\oop_laba3_v2.0\curses.h(160): warning C4005: 'MOUSE_MOVED' : macro redefinition
+          c:\program files (x86)\windows kits\8.1\include\um\wincon.h(118) : see previous definition of 'MOUSE_MOVED'
+c:\users\asus\onedrive - peter the great st. petersburg polytechnical university\5 семестр\ооп\3 лаба\oop_laba3_v2.0\oop_laba3_v2.0\text_editor.h(12): warning C4005: 'KEY_BACKSPACE' : macro redefinition
+          c:\users\asus\onedrive - peter the great st. petersburg polytechnical university\5 семестр\ооп\3 лаба\oop_laba3_v2.0\oop_laba3_v2.0\curses.h(630) : see previous definition of 'KEY_BACKSPACE'
+c:\users\asus\onedrive - peter the great st. petersburg polytechnical university\5 семестр\ооп\3 лаба\oop_laba3_v2.0\oop_laba3_v2.0\text_editor.h(13): warning C4005: 'KEY_ENTER' : macro redefinition
+          c:\users\asus\onedrive - peter the great st. petersburg polytechnical university\5 семестр\ооп\3 лаба\oop_laba3_v2.0\oop_laba3_v2.0\curses.h(648) : see previous definition of 'KEY_ENTER'
+c:\users\asus\onedrive - peter the great st. petersburg polytechnical university\5 семестр\ооп\3 лаба\oop_laba3_v2.0\oop_laba3_v2.0\text_editor.h(173): warning C4373: 'EditorView::Search': virtual function overrides 'Observer::Search', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers
+          c:\users\asus\onedrive - peter the great st. petersburg polytechnical university\5 семестр\ооп\3 лаба\oop_laba3_v2.0\oop_laba3_v2.0\text_editor.h(76) : see declaration of 'Observer::Search'
+c:\users\asus\onedrive - peter the great st. petersburg polytechnical university\5 семестр\ооп\3 лаба\oop_laba3_v2.0\oop_laba3_v2.0\text_editor.h(174): warning C4373: 'EditorView::GoToRow': virtual function overrides 'Observer::GoToRow', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers
+          c:\users\asus\onedrive - peter the great st. petersburg polytechnical university\5 семестр\ооп\3 лаба\oop_laba3_v2.0\oop_laba3_v2.0\text_editor.h(77) : see declaration of 'Observer::GoToRow'
+c:\users\asus\onedrive - peter the great st. petersburg polytechnical university\5 семестр\ооп\3 лаба\oop_laba3_v2.0\oop_laba3_v2.0\view.cpp(77): warning C4018: '<=' : signed/unsigned mismatch
+  Generating Code...
+  Skipping... (no relevant changes detected)
+  Text_editor.cpp
+  Model.cpp
+  Conroller.cpp
+  OOP_laba3_v2.0.vcxproj -> C:\Users\Asus\OneDrive - Peter the Great St. Petersburg Polytechnical University\5 семестр\ООП\3 лаба\OOP_laba3_v2.0\Debug\OOP_laba3_v2.0.exe
